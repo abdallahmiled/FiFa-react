@@ -195,3 +195,17 @@ font-size: 20px;
   display: flex;
   justify-content: space-around;
 }
+.equipe-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 200px;
+  border: 5px solid #0a4f87;
+  background-image:url('https://img.freepik.com/vecteurs-premium/stade-football-texture-couleur-verte_628973-451.jpg');
+  background-size: cover;
+}
+.equipe-container img{
+      width: 250px;
+    height: 270px;
+}

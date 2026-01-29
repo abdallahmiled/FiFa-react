@@ -6,7 +6,9 @@ import Page from './components/Page';
 
 import Suggestions from './components/Suggestions';
 import NewNews from './components/NewNews';
-
+import Equipe from './components/Equipe';
+import ArierePlan from './components/ArierePlan';
+import Footer from './components/Footer'
 function App() {
   const players = [
     
@@ -26,9 +28,9 @@ function App() {
       <Suggestions players={players}/>
       
     </div> 
-     {/* <Equipe/> 
-     <ArierePlan/>  */}
-
+     <Equipe/> 
+     <ArierePlan/> 
+    <Footer/>
     
     </div>
   );
